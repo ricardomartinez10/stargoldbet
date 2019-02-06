@@ -29,7 +29,7 @@
   background-size: contain;
 }
 .player-img{
-  width: 318px;
+      max-width: 110%;
 }
 .img-bale{
   position: relative;
@@ -62,10 +62,12 @@
 @keyframes entradaKoke{
   0%   {top: 483px;}
   50%   {top: 483px;}
-  100% {top: 0px;}
+  100% {top: -12px;}
 }
 .img-koke{
-       position:relative;
+  position: relative;
+right: 119px;
+top: -12px;
       -webkit-animation-name: entradaKoke; /* Safari 4.0 - 8.0 */
       -webkit-animation-timing-function: ease;
       animation-timing-function: ease;
@@ -83,12 +85,13 @@
 }
 /* Standard syntax */
 @keyframes entradaPogba{
-  0%   {top: 0px;}
-  50%   {top: 0px;}
-  100% {top:-257px;}
+  0%   {top: 213px}
+  50%   {top: 213px}
+  100% {top:0px}
 }
 .img-pogba{
   position: relative;
+      left: 67px;
   -webkit-animation-name: entradaPogba; /* Safari 4.0 - 8.0 */
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
@@ -97,12 +100,18 @@
   animation-duration: 1.5s;
 }
 .jugadores{
-  position: absolute;
-  bottom: 0px;
+
+}
+.container-fluid {
+    height: inherit;
+}
+.contenedor-fondo{
+  height: inherit;
 }
 .contenedor-jugadores{
-  position: relative;
-  left: 76px;
+  display: flex;
+    height: 100%;
+    align-items: flex-end;
 }
 .player-left{
 
@@ -116,8 +125,6 @@ left: 293px;
 }
 .player-conteiner{
   display: inline-block;
-  position: absolute;
-  bottom: 0px;
 }
 footer{
   position: relative;
@@ -144,14 +151,15 @@ color: white;
   cursor: pointer;
   position:relative;
   margin-bottom: 22px;
+  max-width: 58%;
 }
 .botones{
-  position: absolute;
-  right: 227px;
-      top: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .botones img{
-  width: 307px;
+      width: 100%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   -webkit-border-radius: 25px;
   border-radius: 25px;
