@@ -24,9 +24,9 @@
   height: 50px;
   background-image: url(img/pasto.png);
   position: absolute;
-  z-index: 1;
-  bottom: 0px;
-  background-size: contain;
+      z-index: 2;
+      bottom: 0px;
+      background-size: contain;
 }
 .player-img{
       max-width: 110%;
@@ -217,8 +217,9 @@ border-bottom: 1px solid #ffffff40;
 
 }
 .flash{
-  position: relative;
-    width: 100%;
+  position: absolute;
+      width: 100%;
+      height:inherit;
 }
 @keyframes blinker {
   50% { opacity: 0; }
