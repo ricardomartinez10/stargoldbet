@@ -33,12 +33,16 @@
 }
 .img-bale{
   position: relative;
-      -webkit-animation-name: entradaTriangle; /* Safari 4.0 - 8.0 */
-      -webkit-animation-timing-function: ease;
-      animation-timing-function: ease;
-      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-      animation-name: entradaTriangle;
-      animation-duration: 1s;
+  opacity:0;
+
+}
+.animation-bale{
+  -webkit-animation-name: entradaTriangle; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: entradaTriangle;
+  animation-duration: 1s;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes entradaTriangle {
@@ -66,16 +70,18 @@
 }
 .img-koke{
   position: relative;
+  opacity: 0;
 right: 119px;
 top: -12px;
-      -webkit-animation-name: entradaKoke; /* Safari 4.0 - 8.0 */
-      -webkit-animation-timing-function: ease;
-      animation-timing-function: ease;
-      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-      animation-name: entradaKoke;
-      animation-duration: 2s;
 }
-
+.animation-koke{
+  -webkit-animation-name: entradaKoke; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: entradaKoke;
+  animation-duration: 2s;
+}
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes entradaPogba {
@@ -85,13 +91,18 @@ top: -12px;
 }
 /* Standard syntax */
 @keyframes entradaPogba{
-  0%   {top: 213px}
-  50%   {top: 213px}
+  0%   {top: 430px}
+  50%   {top: 430px}
   100% {top:0px}
+}
+#pogba{
+  opacity:0;
 }
 .img-pogba{
   position: relative;
-      left: 67px;
+  left: 67px;
+}
+.animation-pogba{
   -webkit-animation-name: entradaPogba; /* Safari 4.0 - 8.0 */
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;

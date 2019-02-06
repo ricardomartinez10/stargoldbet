@@ -30,15 +30,15 @@
   <div class="jugadores col-md-7">
     <div class="contenedor-jugadores">
       <div class="img-pogba player-conteiner player-left">
-        <img class="img-pogba player-img" src="img/pogba.png" alt="">
+        <img id="pogba" class="img-pogba player-img" src="img/pogba.png" alt="">
       </div>
 
       <div class="player-conteiner player-center">
-        <img class="img-bale player player-img" src="img/bale.png" alt="">
+        <img id="bale" class="img-bale player player-img" src="img/bale.png" alt="">
       </div>
 
       <div class="player-conteiner player-right">
-      <img class="img-koke player player-img" src="img/koke.png" alt="">
+      <img id="koke" class="img-koke player player-img" src="img/koke.png" alt="">
       </div>
     </div>
   </div>
@@ -122,17 +122,23 @@
   </footer>
 
   <script>
-    // var flashes = document.getElementsByClassName("flash-img");
-    //
-    //  for (let i = 0; i < flashes.length; i++) {
-    //    let posx=Math.floor((Math.random() * (screen.width-500)) + '100');
-    //    let posy=Math.floor((Math.random() * 300) + '100');
-    //    flashes[i].style.setProperty('left',posx+"px");
-    //   flashes[i].style.setProperty('top',posy+"px");
-    //
-    //   flashes[i].classList.add("flash-animation");
-    //  }
 
+  window.onload = function() {
+
+    let bale=document.getElementById('bale');
+    let pogba=document.getElementById('pogba');
+    let koke=document.getElementById('koke');
+
+    setTimeout(function(){
+          bale.style.opacity = '1'
+          pogba.style.opacity = '1'
+          koke.style.opacity = '1'
+
+          bale.classList.add("animation-bale");
+          pogba.classList.add("animation-pogba");
+          koke.classList.add("animation-koke");
+    }, 500);
+  };
   </script>
 </body>
 </html>
