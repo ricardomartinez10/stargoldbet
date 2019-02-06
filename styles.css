@@ -42,8 +42,8 @@
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes entradaTriangle {
-  0%   {top:200px; bottom:0px;}
-  100% {top:0px; bottom:500px;}
+  0%   {top: 478px;}
+  100% {top:0px;}
 }
 /* Standard syntax */
 @keyframes entradaTriangle {
@@ -54,9 +54,9 @@
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes entradaKoke {
-  0%   {top:464px;}
-  50%   {top:464px;}
-  100% {top:-15px;}
+  0%   {top: 483px;}
+  50%   {top: 483px;}
+  100% {top: -12px;}
 }
 /* Standard syntax */
 @keyframes entradaKoke{
@@ -79,9 +79,9 @@ top: -12px;
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes entradaPogba {
-  0%   {top:465px;}
-  50%   {top:465px; bottom:0px;}
-  100% {top:0px; bottom:0px;}
+  0%   {top: 213px}
+  50%   {top: 213px}
+  100% {top:0px}
 }
 /* Standard syntax */
 @keyframes entradaPogba{
