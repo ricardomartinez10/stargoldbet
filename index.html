@@ -5,17 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stargoldbet</title>
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
   <div class="container-fluid cont-logo">
-    <img src="img/logo.png" alt="">
+    <div class="container">
+      <div class="col-md-7">
+        <img class="logo-header" src="img/logo.png" alt="">
+      </div>
+
+    </div>
+
   </div>
 
 <div class="contenido">
@@ -27,7 +33,7 @@
 
 
 <div class="contenedor-fondo row">
-  <div class="jugadores col-md-7">
+  <div class="jugadores col-sm-12 col-md-7">
     <div class="contenedor-jugadores">
       <div class="img-pogba player-conteiner player-left">
         <img id="pogba" class="img-pogba player-img" src="img/pogba.png" alt="">
@@ -43,14 +49,20 @@
     </div>
   </div>
 
-  <div class="botones col-md-5">
+  <div class="botones col-sm-12 col-md-5">
 
     <div class="boton-deportes">
-      <img src="img/federer.jpg" alt="">
+      <div class="container-icon-card">
+            <img class="card-icon ic-deportes" src="img/icono-deportes.png" alt="">
+      </div>
+      <img class="card-bg"  src="img/card-icon.jpg" alt="">
       <p class="label-boton"><b>DEPORTES</b></p>
     </div>
     <div class="boton-deportes">
-      <img src="img/lebron.jpg" alt="">
+      <div class="container-icon-card">
+            <img class="card-icon ic-envivo" src="img/icono-envivo.png" alt="">
+      </div>
+      <img class="card-bg" src="img/card-icon.jpg" alt="">
       <p class="label-boton"><b>EN VIVO</b></p>
     </div>
   </div>

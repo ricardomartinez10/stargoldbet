@@ -5,7 +5,7 @@
   background-color:#091233;
   padding: 28px 10px;
 }
-.cont-logo>img{
+.logo-header{
   width: 361px;
 }
 .fondo{
@@ -162,15 +162,15 @@ color: white;
   cursor: pointer;
   position:relative;
   margin-bottom: 22px;
-  max-width: 58%;
+  max-width:55%;
 }
 .botones{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.botones img{
-      width: 100%;
+.card-bg{
+  width: 100%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -183,7 +183,7 @@ background: #050b23;
 position: absolute;
 bottom: -17px;
 text-align: center;
-font-size: 30px;
+font-size:28px;
 padding: 4px 0px;
 -webkit-transition: background-color .8s ease-out;
 -moz-transition: background-color .8s  ease-out;
@@ -213,10 +213,30 @@ border-bottom: 1px solid #ffffff40;
   margin-right: 10px;
   width:65px;
 }
+.card-icon{
+  position: relative;
+  bottom: 18px;
+}
+.ic-deportes{
+  max-width:55%;
+}
+.ic-envivo{
+  max-width: 41%;
+}
 .copy{
   text-align: center;
   color: white;
 
+}
+.container-icon-card{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -243,4 +263,34 @@ top: 33px;
 }
 .flash-animation{
   animation: blinker 2s linear infinite;
+}
+@media (max-width:960px) {
+  .fondo{
+      background-position-y: 0px;
+  }
+}
+@media (max-width: 575.98px) {
+  .logo-header{
+      width: 290px;
+  }
+
+  .img-pogba {
+    left: 32px;
+}
+.img-koke {
+    right: 67px;
+}
+.botones {
+  justify-content: flex-start;
+    align-items: center;
+}
+.label-boton{
+  font-size: 21px;
+}
+.fondo{
+      height: 100vh;
+}
+.pasto{
+      bottom: -1px;
+}
 }
