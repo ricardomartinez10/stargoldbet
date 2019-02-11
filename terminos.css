@@ -1,0 +1,125 @@
+.contenedor-terminos{
+  background-color:#000000;
+}
+.contenedor-principal{
+  background-color:#000000;
+}
+.menu-reglas{
+  padding-right:0px;s
+}
+.contenedor-texto-reglamento{
+  padding-top: 5.6%;
+}
+.contenedor-header{
+  position: fixed;
+  z-index: 1;
+  background-color: #091233;
+}
+.contenedor-reglamento {
+    background-color: #091233;
+    padding-top: 1.2%;
+}
+.lista-header{
+  margin:0;
+}
+.logo-header{
+width: inherit;
+}
+.item-header {
+    display: inline-block;
+    margin-left: 10px;
+}
+.item-header a{
+ color: white;
+ font-weight: 600;
+}
+.header-terminos{
+  padding: 30px 0px;
+  align-items: center;
+}
+.header-buttons{
+  display: flex;
+justify-content: flex-end;
+}
+.button-menu{
+    display: inline-block;
+    padding: 4px 19px;
+    border-radius: 4px;
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+.b-entrar{
+  color: #091233;
+  background-color:#e4bb00;
+  margin-right: 14px;
+}
+.b-registro{
+  color: #091233;
+  background-color:#ffffff;
+}
+.titulo-pagina {
+    padding: 4.3% 0px;
+    text-align: center;
+}
+.titulo-texto{
+  color: white;
+      font-weight: 600;
+      margin-bottom: 1px;
+}
+.contenedor-titulo{
+   display: inline-block;
+}
+.contenedor-subtitulo{
+  display: inline-block;
+  padding: 25px 0px;
+}
+.subtitulo{
+  color: #e4bb00;
+  padding-bottom: 3px;
+  margin: 0px;
+}
+.linea-titulo{
+  width: 100%;
+height: 0.3rem;
+background: #e4bb00;
+}
+
+.linea-subtitulo{
+  width: 100%;
+height: 0.2rem;
+background: #e4bb00;
+}
+.titulo-deporte {
+    color: white;
+    padding-bottom: 7px;
+}
+.texto-deporte{
+  color: white;
+}
+.tabla-terminos{
+  width: inherit;
+  margin: 0px auto;
+  text-align:center;
+  color:white;
+  border: 1px solid white;
+  display: inline-table;
+}
+.tabla-terminos tr{
+  border-top: 1px solid white;
+}
+.contenedor-tabla{
+      text-align: center;
+      margin-bottom: 13px;
+      margin-top: 22px;
+}
+.tabla-terminos td {
+  border-right: 1px solid white;
+}
+.item-reglamento {
+    cursor:pointer;
+    background: #e4bb00;
+    padding: 5% 0%;
+    text-align: center;
+    font-weight: 600;
+}
