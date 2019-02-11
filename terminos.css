@@ -5,7 +5,7 @@
   background-color:#000000;
 }
 .menu-reglas{
-  padding-right:0px;s
+  padding-right:0px;
 }
 .contenedor-texto-reglamento{
   padding-top: 5.6%;
@@ -18,6 +18,7 @@
 .contenedor-reglamento {
     background-color: #091233;
     padding-top: 1.2%;
+    padding-bottom: 2px;
 }
 .lista-header{
   margin:0;
@@ -34,7 +35,7 @@ width: inherit;
  font-weight: 600;
 }
 .header-terminos{
-  padding: 30px 0px;
+  padding:25px 0px;
   align-items: center;
 }
 .header-buttons{
@@ -122,4 +123,68 @@ background: #e4bb00;
     padding: 5% 0%;
     text-align: center;
     font-weight: 600;
+}
+
+.reglamento-footer{
+  width: 100%;
+      height: 100px;
+      background: #091233;
+      display: flex;
+      align-items: flex-end;
+}
+.pasto {
+    width: 100%;
+    height: 50px;
+    background-image: url(img/pasto.png);
+    background-size: contain;
+}
+/* footer */
+.footer-items {
+    padding-top: 100px;
+}
+.copy {
+    text-align: center;
+    color: white;
+}
+.item-footer-label {
+    font-size: 20px;
+    color: #cfa101;
+}
+.lista-footer {
+    font-size: 14px;
+    padding: 0;
+    color: white;
+}
+.lista-footer li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.linea-footer {
+    margin: 64px 0px;
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid #ffffff40;
+}
+.redes-footer {
+    margin: 55px 0px;
+    text-align: center;
+}
+.redes-footer img {
+  margin-right: 10px;
+  width: 65px;
+}
+@media (max-width: 575.98px) {
+  .contenedor-titulo{
+        padding-bottom: 4%;
+  }
+  .contenedor-texto-reglamento {
+          padding-top: 48.6%;
+  }
+  .item-reglamento {
+    padding: 2% 0%;
+}
+.menu-reglas{
+    padding-right: 15px;
+}
+
 }
